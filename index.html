@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="check.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="check.ico" type="image/x-icon">
+    <title>TO DO</title>
+    <script src="banco.js" defer></script>
+    <script src="mode.js" defer></script>
+</head>
+<body>
+   
+    <div class="todo">
+        <div class="todo__title">TO DO</div>
+        <div class="todo__list" id='todoList'>
+        </div>
+        <div class="todo__new-item" id="newItem">            
+            <input type="text" id="caixaTarefa" autocomplete="off" placeholder="Digite e pressione Enter para adicionar a tarefa">         
+        </div>
+    </div>
+
+    <div class="mode">
+        <div class="toggle">
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch"><i class='bx bxs-adjust'></i></i></label>
+        </div>
+    </div>
+    <div class="color">
+        <div class="container">
+            <label for="inputColor"><i class='bx bxs-palette'></i></label>
+            <input type="color" value="#FF4040" id="inputColor" />            
+          </div>
+    </div>
+
+</body>
+</html>
