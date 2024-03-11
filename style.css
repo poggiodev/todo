@@ -292,7 +292,7 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
     .mode{
-        left: 85%;
+        left: 70%;
         top: 1.8rem;
     }
 
@@ -300,7 +300,7 @@ body {
 
 @media only screen and (min-width: 1024px) and (max-width:1439px){
     .mode{
-        left: 90%;
+        left: 85%;
         top: 1.8rem;
     }
 
