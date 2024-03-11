@@ -285,7 +285,7 @@ body {
     background-color: var(--color7);
 }
 
-
+/* 
 @media only screen and (max-width: 767px){
     .mode{
         left: 65%;
@@ -308,4 +308,4 @@ body {
 
 @media only screen and (min-width: 1440px){
     
-}
+} */
