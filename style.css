@@ -287,22 +287,15 @@ body {
 
 /* 
 @media only screen and (max-width: 767px){
-    .mode{
-        left: 65%;
-    }
-}
+
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
-    .mode{
-        left: 70%;
-    }
+
 
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1439px){
-    .mode{
-        left: 85%;
-    }
+
 
 }
 
